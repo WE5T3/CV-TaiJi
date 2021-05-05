@@ -1,4 +1,3 @@
-
 let string = `
 /*
  *你好,我叫CGC
