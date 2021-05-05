@@ -92,5 +92,6 @@ let step = () => {
 
 }
 
-
+console.log(string.length);
 step()
+console.log(string.length);
