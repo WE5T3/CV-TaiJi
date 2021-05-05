@@ -81,9 +81,7 @@ let step = () => {
         // else if(string[n]===undefined){}  
         string2 += (string[n] === '\n' ? '<br>' : (string[n] === ' ' ? '&ensp;' : string[n]))
         html.innerHTML = string2;
-        console.log(n);
         style.innerHTML = string.substring(0, n);
-        console.log(1);
         window.scrollTo(0, 99999);
         html.scrollTo(0, 99999);
         n += 1;
