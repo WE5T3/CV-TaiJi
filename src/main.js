@@ -1,5 +1,4 @@
-let html = document.querySelector('#html');
-let style = document.querySelector('#style');
+
 let string = `
 /*
  *你好,我叫CGC
@@ -64,7 +63,8 @@ let string = `
  *   展示结束
  */
 `;
-
+let html = document.querySelector('#html');
+let style = document.querySelector('#style');
 let string2 = "";
 let n = 0
 console.log(string.length);
